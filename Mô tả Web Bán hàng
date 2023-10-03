@@ -1,0 +1,14 @@
+Mô tả Web Bán hàng 
+- Khách hàng 
+  + Trang chủ
+  + Trang danh mục sản phẩm
+  + Trang tin tức
+  + Trang chi tiết sản phẩm
+  + Trang giỏ hàng
+- Admin
+  + Quản lý tài khoản 
+  + Quản lý khách hàng 
+  + Quản lý tin tức 
+  + Quản lý Quyền truy cập
+  + Quản lý sản phẩm
+  + Quản lý đơn hàng 
