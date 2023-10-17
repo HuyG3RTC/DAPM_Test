@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>WebBanHangDoreStore_2._0</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreHero.ToastNotification" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="PagedList.Core.Mvc" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="wwwroot\Adminassets\images\avatars\" />
+    <Folder Include="wwwroot\Adminassets\images\logo\" />
+    <Folder Include="wwwroot\Adminassets\images\others\" />
+    <Folder Include="wwwroot\assets\images\about\banner\" />
+    <Folder Include="wwwroot\assets\images\about\team\" />
+    <Folder Include="wwwroot\assets\images\avatar\" />
+    <Folder Include="wwwroot\assets\images\banner\inner-img\" />
+    <Folder Include="wwwroot\assets\images\blog\banner\" />
+    <Folder Include="wwwroot\assets\images\blog\blockquote\" />
+    <Folder Include="wwwroot\assets\images\blog\large-size\" />
+    <Folder Include="wwwroot\assets\images\blog\medium-size\" />
+    <Folder Include="wwwroot\assets\images\blog\small-size\" />
+    <Folder Include="wwwroot\assets\images\brand\" />
+    <Folder Include="wwwroot\assets\images\breadcrumb\bg\" />
+    <Folder Include="wwwroot\assets\images\logo\" />
+    <Folder Include="wwwroot\assets\images\megamenu\slider\" />
+    <Folder Include="wwwroot\assets\images\product\large-size\" />
+    <Folder Include="wwwroot\assets\images\product\medium-size\" />
+    <Folder Include="wwwroot\assets\images\product\small-size\" />
+    <Folder Include="wwwroot\assets\images\slider\bg\" />
+    <Folder Include="wwwroot\assets\images\slider\inner-img\" />
+    <Folder Include="wwwroot\assets\images\testimonial\user\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+</Project>
