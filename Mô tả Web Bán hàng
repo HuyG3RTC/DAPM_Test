@@ -5,10 +5,15 @@ Mô tả Web Bán hàng
   + Trang tin tức
   + Trang chi tiết sản phẩm
   + Trang giỏ hàng
+  + Trang thông tin tài khoản
+  + Trang Lịch sử mua hàng
+  + Trang Địa chỉ   
 - Admin
-  + Quản lý tài khoản 
+  + Quản lý tài khoản
   + Quản lý khách hàng 
-  + Quản lý tin tức 
   + Quản lý Quyền truy cập
   + Quản lý sản phẩm
   + Quản lý đơn hàng 
+  + Quản lý thu nhập
+  + Quản lý kho
+  + Quản lý giảm giá
